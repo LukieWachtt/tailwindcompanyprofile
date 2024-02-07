@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth ">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NoPengoo Profile Hub</title>
+    <link rel="stylesheet" href="./src/output.css" />
+    <link rel="stylesheet" href="animate.css">
+    <link rel="icon" type="image/png" href="./img/nopengo.png" />
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </head>
+  <body
+    class="h-[2700px]  bg-gradient-to-t from-slate-950 from-90% to-red-950 to-1%" onload="showcontent(main)"
+  >
+    <div class="main-container " id="main-content">
+      <header>
+        
+        <div id="navbar" class="flex justify-end items-center md:justify-around md:items-center  md:transition-colors md:duration-150 md:ease-in z-10 fixed h-[80px] w-dvw">
+
+          <span id="burger-icon" class="mx-10 md:hidden block cursor-pointer text-4xl text-white">
+            <ion-icon name="Menu" onclick="Menu(this)"></ion-icon>
+            
+          </span>
+          
+          <div class="flex gap-10">
+
+            <ul id="mobile" class="md:flex z-[1] md:z-auto md:items-center md:static absolute w-full bg-[#000000ed] md:bg-transparent left-0 md:w-auto md:py-0 py-5 md:pl-0 pl-7 md:opacity-100 opacity-0 
+            top-[-400px] transition-all ease-in duration-150">
+              <li class=" my-6 md:my-0 mx-4">
+                <div class="h-17 w-10 object-fill">
+                  <a href="#home">
+                    <img
+                      class="object-contain"
+                      src="img/nopengo.png"
+                      alt=""
+                      srcset=""
+                    />
+                  </a>
+                </div>
+              </li>
+              <li
+                class="text-2xl text-white/50 my-6 md:my-0 mx-4 hover:text-white ease-in-out duration-300"
+              >
+                <a href="#home">Home</a>
+              </li>
+              <li
+                class="text-2xl text-white/50 my-6 md:my-0 mx-4 hover:text-white ease-in-out duration-300"
+              >
+                <a href="#about">About</a>
+              </li>
+              <li
+                class="text-2xl text-white/50 my-6 md:my-0 mx-4 hover:text-white ease-in-out duration-300"
+              >
+                <a href="#community">Community</a>
+              </li>
+              <li>
+                <button
+            class="bg-rose-500 mx-4 block md:hidden text-xl rounded-lg h-10 w-60 font-semibold text-black"
+          >
+            <a href="https://discord.gg/wielinoino" target="_blank"
+              >Join The Community!</a
+            >
+          </button>
+              </li>
+            </ul>
+          </div>
+          
+          <button
+            class="bg-rose-500 mx-4 hidden md:block text-xl rounded-lg h-10 w-60 font-semibold text-black"
+          >
+            <a href="https://discord.gg/wielinoino" target="_blank"
+              >Join The Community!</a
+            >
+          </button>
+        </div>
+      </header>
+
+      <main class="flex  flex-col w-[100%] md:w-[100%] md:px-14 h-[2700px]">
+        <section
+          id="home"
+          class="h-[700px] w-100% flex items-center justify-center flex-col gap-10 md:flex-row md:justify-between"
+        >
+          <div class="text-xl flex flex-col items-center md:items-start gap-10">
+            <h1 class="text-white w-[300px] text-center md:text-left md:w-[500px]">
+              <span class="font-semibold text-2xl">Welcome,</span> Wielinoist!
+              <span class="font-semibold text-2xl">Wielino</span> is a Gaming Content Creator who 
+              likes to upload his content on the Internet.
+              Wielino is an Indonesian Content Creator who constantly uploads
+              his stuff on Youtube. Check it out!
+            </h1>
+            <button
+              class="bg-rose-500 rounded-lg block w-[200px] h-[40px] md:w-[300px] md:text-2xl font-semibold text-xl text-black"
+            >
+              <a href="https://www.youtube.com/@WielinoINO" target="_blank"
+                >Visit The Channel</a
+              >
+            </button>
+          </div>
+          <div>
+            <video width="350" class="md:w-[500px]" autoplay loop muted>
+              <source
+                src="./img/Recording 2024-02-01 143056.mp4"
+              />
+            </video>
+          </div>
+        </section>
+
+        <section id="about" class="h-[1250px] overflow-hidden w-100%">
+          <div class="flex flex-col justify-center items-center m-0 p-0 mb-[100px]">
+            <div class="mb-6">
+              <h1 class="text-white font-bold text-3xl md:text-5xl">Popular Videos</h1>
+            </div>
+
+            <div class="flex justify-center w-dvw">
+              <div class="flex w-[300px] md:w-[500px] overflow-hidden bg-contain aspect-video">
+                <img
+                class="animate-mobile md:animate-loopthing w-[100%] h-[100%] "
+
+                src="./slides/ino tamnail.webp"
+                
+                
+                
+              ></img>
+                <img
+                  class="animate-mobile md:animate-loopthing w-[100%] h-[100%] "
+  
+                  src="./slides/ino slide 2.webp"
+                  
+                  
+                  
+                ></img>
+                <img
+                class="animate-mobile md:animate-loopthing w-[100%] h-[100%] "
+
+                src="./slides/cihuuyyy.webp"
+                
+                
+                
+              ></img>
+              <img
+              class="animate-mobile md:animate-loopthing w-[100%] h-[100%] "
+              src="./slides/ino slide.webp"
+              autoplay
+              loop
+              muted
+            ></img>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex justify-between items-center flex-col gap-10 md:flex-row mb-[100px]">
+            <div class="w-[300px] md:w-[400px] text-white text-xl md:text-2xl md:text-left text-center">
+              <h1>
+                  <span class="font-semibold text-2xl">Wielino,</span>  a 20-year-old guy, loves making funny Gaming Videos and memeable stuff. He's all about creating fun videos for everyone to enjoy!
+              </h1>
+            </div>
+            <div class="before:content-[''] bg-rose-500 w-[3px] h-[320px] rounded-sm hidden md:block"></div>
+            <div>
+              <img
+                src="./slides/hero kanan.webp"
+                class="w-[350px] md:w-[500px]"
+                alt="fuutao cheese"
+              />
+            </div>
+          </div>
+          <div class="flex flex-col items-center gap-3">
+            <div class="flex gap-3 md:gap-10">
+              <div class="flex flex-col  p-1 w-[150px] md:w-[180px] md:h-[180px]  items-center justify-around  bg-slate-600 rounded-md shadow-rose-800 shadow-md"><img width="80px" src="./slides/ino logo.jpg" class="rounded-full" alt=""><h1 class="text-sm text-white font-semibold text-center ">Has over 581K Subscribers on Youtube!</h1></div>
+              <div class="flex flex-col  p-1 w-[150px] md:w-[180px] md:h-[180px]  items-center justify-around  bg-slate-600 rounded-md shadow-rose-800 shadow-md"><img width="80px" src="./slides/logo kedua.jpg" class="rounded-full"><h1 class="text-sm text-white font-semibold text-center ">Does Livestreams on his Second Channel, Check it out <a href="https://www.youtube.com/c/InoGeminkLiveStreaming" class="underline ]">Here!</a></h1></div>
+              <div class="md:flex flex-col hidden  p-1 w-[150px] md:w-[180px] md:h-[180px]  items-center justify-around  bg-slate-600 rounded-md shadow-rose-800 shadow-md"><svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 20 20" fill="none">
+                <path d="M17 1H3C1.9 1 1 1.9 1 3V17C1 18.101 1.9 19 3 19H17C18.1 19 19 18.101 19 17V3C19 1.9 18.1 1 17 1ZM9.984 15.523C11.4529 15.5227 12.8615 14.939 13.9 13.9003C14.9386 12.8616 15.522 11.4529 15.522 9.984C15.522 9.646 15.479 9.32 15.419 9H17V16.216C17 16.3069 16.9821 16.3968 16.9472 16.4807C16.9123 16.5647 16.8612 16.6409 16.7968 16.705C16.7325 16.7691 16.656 16.8198 16.572 16.8543C16.4879 16.8888 16.3979 16.9064 16.307 16.906H3.693C3.60214 16.9064 3.51209 16.8888 3.42803 16.8543C3.34397 16.8198 3.26755 16.7691 3.20316 16.705C3.13877 16.6409 3.08767 16.5647 3.05281 16.4807C3.01795 16.3968 3 16.3069 3 16.216V9H4.549C4.488 9.32 4.445 9.646 4.445 9.984C4.44527 11.453 5.02892 12.8617 6.06763 13.9004C7.10633 14.9391 8.51505 15.5227 9.984 15.523ZM6.523 9.984C6.523 9.5295 6.61252 9.07944 6.78645 8.65953C6.96038 8.23962 7.21532 7.85809 7.5367 7.5367C7.85809 7.21532 8.23962 6.96038 8.65953 6.78645C9.07944 6.61252 9.5295 6.523 9.984 6.523C10.4385 6.523 10.8886 6.61252 11.3085 6.78645C11.7284 6.96038 12.1099 7.21532 12.4313 7.5367C12.7527 7.85809 13.0076 8.23962 13.1815 8.65953C13.3555 9.07944 13.445 9.5295 13.445 9.984C13.445 10.9019 13.0804 11.7822 12.4313 12.4313C11.7822 13.0804 10.9019 13.445 9.984 13.445C9.06609 13.445 8.18577 13.0804 7.5367 12.4313C6.88764 11.7822 6.523 10.9019 6.523 9.984ZM16.307 6H14.692C14.5086 5.99947 14.3329 5.9264 14.2033 5.79673C14.0736 5.66707 14.0005 5.49137 14 5.308V3.691C14 3.309 14.31 3 14.691 3H16.306C16.69 3 17 3.309 17 3.691V5.307C17 5.688 16.69 6 16.307 6Z" fill="white"/>
+                </svg><h1 class="text-sm text-white font-semibold text-center ">Wielino is also Available on Instagram! <a href="instagram.com/wielinoxd" class="underline">Visit Now!</a></h1></div>
+            </div>
+            <div class="flex flex-col md:hidden p-1 w-[150px]  items-center justify-around  bg-slate-600 rounded-md shadow-rose-800 shadow-md"><svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 20 20" fill="none">
+              <path d="M17 1H3C1.9 1 1 1.9 1 3V17C1 18.101 1.9 19 3 19H17C18.1 19 19 18.101 19 17V3C19 1.9 18.1 1 17 1ZM9.984 15.523C11.4529 15.5227 12.8615 14.939 13.9 13.9003C14.9386 12.8616 15.522 11.4529 15.522 9.984C15.522 9.646 15.479 9.32 15.419 9H17V16.216C17 16.3069 16.9821 16.3968 16.9472 16.4807C16.9123 16.5647 16.8612 16.6409 16.7968 16.705C16.7325 16.7691 16.656 16.8198 16.572 16.8543C16.4879 16.8888 16.3979 16.9064 16.307 16.906H3.693C3.60214 16.9064 3.51209 16.8888 3.42803 16.8543C3.34397 16.8198 3.26755 16.7691 3.20316 16.705C3.13877 16.6409 3.08767 16.5647 3.05281 16.4807C3.01795 16.3968 3 16.3069 3 16.216V9H4.549C4.488 9.32 4.445 9.646 4.445 9.984C4.44527 11.453 5.02892 12.8617 6.06763 13.9004C7.10633 14.9391 8.51505 15.5227 9.984 15.523ZM6.523 9.984C6.523 9.5295 6.61252 9.07944 6.78645 8.65953C6.96038 8.23962 7.21532 7.85809 7.5367 7.5367C7.85809 7.21532 8.23962 6.96038 8.65953 6.78645C9.07944 6.61252 9.5295 6.523 9.984 6.523C10.4385 6.523 10.8886 6.61252 11.3085 6.78645C11.7284 6.96038 12.1099 7.21532 12.4313 7.5367C12.7527 7.85809 13.0076 8.23962 13.1815 8.65953C13.3555 9.07944 13.445 9.5295 13.445 9.984C13.445 10.9019 13.0804 11.7822 12.4313 12.4313C11.7822 13.0804 10.9019 13.445 9.984 13.445C9.06609 13.445 8.18577 13.0804 7.5367 12.4313C6.88764 11.7822 6.523 10.9019 6.523 9.984ZM16.307 6H14.692C14.5086 5.99947 14.3329 5.9264 14.2033 5.79673C14.0736 5.66707 14.0005 5.49137 14 5.308V3.691C14 3.309 14.31 3 14.691 3H16.306C16.69 3 17 3.309 17 3.691V5.307C17 5.688 16.69 6 16.307 6Z" fill="white"/>
+              </svg><h1 class="text-sm text-white font-semibold text-center ">Wielino is also Available on Instagram! <a href="instagram.com/wielinoxd" class="underline">Visit Now!</a></h1></div>
+          </div>
+        </section>
+        <!-- hello to whoever is inspecting this i hope ur having a good day ~lordlukie -->
+        <section id="community" class="w-100% h-[600px] md:h-0">
+          <div class="flex flex-col md:flex-row md:justify-between items-center">
+           <div class="flex flex-col md:items-start gap-5 items-center">
+            <div class="text-white flex md:block w-[300px] text-2xl md:w-[500px] md:text-left text-center ">We now have a Discord Server! Join our WielinoINO Community discord server! Chat and talk with new friends here!</div>
+            <div>
+              <button
+            class="bg-rose-500 text-xl rounded-lg h-10 w-60 font-semibold text-black"
+          >
+            <a href="https://discord.gg/wielinoino" target="_blank"
+              >Join The Community!</a
+            >
+          </button>
+            </div>
+           </div> 
+           <div class="flex md:hidden"><img src="./slides/wielino landing page.svg" alt=""></div>
+           <div class="hidden md:flex"><img src="./slides/wielino landing page.svg"  alt=""></div>
+          </div>
+        </section>
+
+      </main>
+
+      <footer class="h-[80px] flex items-center justify-around bg-slate-900">
+        
+          <div class="text-white font-light text-sm opacity-60 md:text-xl">made by @atha</div>
+          <div class="text-white font-semibold text-lg md:text-2xl hidden md:block">Follow My Socials!</div>
+          <div class="flex gap-3 h-[30px]">
+            <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none">
+              <path d="M11.6397 5.93H13.0697V10.21H11.6397M15.5697 5.93H16.9997V10.21H15.5697M6.99969 2L3.42969 5.57V18.43H7.70969V22L11.2897 18.43H14.1397L20.5697 12V2M19.1397 11.29L16.2897 14.14H13.4297L10.9297 16.64V14.14H7.70969V3.43H19.1397V11.29Z" fill="white"/>
+              </svg>></a>
+              <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none">
+                <path d="M18.901 1.15234H22.581L14.541 10.3423L24 22.8453H16.594L10.794 15.2613L4.156 22.8453H0.474L9.074 13.0153L0 1.15334H7.594L12.837 8.08534L18.901 1.15234ZM17.61 20.6433H19.649L6.486 3.23934H4.298L17.61 20.6433Z" fill="white"/>
+                </svg></a>
+                <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 20 20" fill="none">
+                  <path d="M17 1H3C1.9 1 1 1.9 1 3V17C1 18.101 1.9 19 3 19H17C18.1 19 19 18.101 19 17V3C19 1.9 18.1 1 17 1ZM9.984 15.523C11.4529 15.5227 12.8615 14.939 13.9 13.9003C14.9386 12.8616 15.522 11.4529 15.522 9.984C15.522 9.646 15.479 9.32 15.419 9H17V16.216C17 16.3069 16.9821 16.3968 16.9472 16.4807C16.9123 16.5647 16.8612 16.6409 16.7968 16.705C16.7325 16.7691 16.656 16.8198 16.572 16.8543C16.4879 16.8888 16.3979 16.9064 16.307 16.906H3.693C3.60214 16.9064 3.51209 16.8888 3.42803 16.8543C3.34397 16.8198 3.26755 16.7691 3.20316 16.705C3.13877 16.6409 3.08767 16.5647 3.05281 16.4807C3.01795 16.3968 3 16.3069 3 16.216V9H4.549C4.488 9.32 4.445 9.646 4.445 9.984C4.44527 11.453 5.02892 12.8617 6.06763 13.9004C7.10633 14.9391 8.51505 15.5227 9.984 15.523ZM6.523 9.984C6.523 9.5295 6.61252 9.07944 6.78645 8.65953C6.96038 8.23962 7.21532 7.85809 7.5367 7.5367C7.85809 7.21532 8.23962 6.96038 8.65953 6.78645C9.07944 6.61252 9.5295 6.523 9.984 6.523C10.4385 6.523 10.8886 6.61252 11.3085 6.78645C11.7284 6.96038 12.1099 7.21532 12.4313 7.5367C12.7527 7.85809 13.0076 8.23962 13.1815 8.65953C13.3555 9.07944 13.445 9.5295 13.445 9.984C13.445 10.9019 13.0804 11.7822 12.4313 12.4313C11.7822 13.0804 10.9019 13.445 9.984 13.445C9.06609 13.445 8.18577 13.0804 7.5367 12.4313C6.88764 11.7822 6.523 10.9019 6.523 9.984ZM16.307 6H14.692C14.5086 5.99947 14.3329 5.9264 14.2033 5.79673C14.0736 5.66707 14.0005 5.49137 14 5.308V3.691C14 3.309 14.31 3 14.691 3H16.306C16.69 3 17 3.309 17 3.691V5.307C17 5.688 16.69 6 16.307 6Z" fill="white"/>
+                  </svg></a>
+                  <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none">
+                    <path d="M22 12C22 6.48 17.52 2 12 2C6.48 2 2 6.48 2 12C2 16.84 5.44 20.87 10 21.8V15H8V12H10V9.5C10 7.57 11.57 6 13.5 6H16V9H14C13.45 9 13 9.45 13 10V12H16V15H13V21.95C18.05 21.45 22 17.19 22 12Z" fill="white"/>
+                    </svg></a>
+          </div>
+          <div class="text-white font-semibold text-xs md:text-2xl block md:hidden">Follow My Socials!</div>
+          
+      </footer>
+    </div>
+    
+    <script src="main.js"></script>
+    <script src="mobile.js"></script>
+    <script>
+    function Menu(e){
+      let list = document.querySelector('ul');
+      e.name === 'menu' ? (e.name = "close",list.classList.add('top-[80px]') , list.classList.add('opacity-100')) :( e.name = "menu" ,list.classList.remove('top-[80px]'),list.classList.remove('opacity-100'))
+    }
+  </script>
+    
+  </body>
+</html>
